@@ -1,0 +1,76 @@
+*
+{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+#root
+{
+  width:100%;
+  height:100%;
+}
+
+
+#listWrapper
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:lightblue;
+  padding:20px 40px 20px 40px;
+  border-radius: 15px;
+}
+
+.App
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center;
+}
+
+.App h1
+{
+  margin:40px;
+  text-shadow: 3px 5px 0px rgba(66,66,66,.22);
+  text-align: center;
+  animation-name: colorido;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorido {
+  0% {color:red;}
+  50% {color: purple;}
+  100% {color: red;}
+}
+
+.App input
+{
+  margin:5px;
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 12px;
+  box-shadow: 3px 5px 0px rgba(66,66,66,.22);
+}
+
+.App button
+{
+  margin:20px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 12px;
+  box-shadow: 3px 5px 0px rgba(66,66,66,.22);
+  color:gray;
+}
